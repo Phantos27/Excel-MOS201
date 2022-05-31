@@ -4,3 +4,36 @@ Excel Sınavı Detayları
 Excel opened in compass (exam app)
 --------------------------
 First Project - Airbnb Dataset
+
+--------------------------------
+Skills to be Covered
+Reference Types
+Logical Operations
+Date & Time Functions
+Basic Macros
+Lookup Functions
+Financial Functions
+Data Analysis Tools
+Formula Auditing 
+
+-------------------
+Reference Types
+Relative (A1) : Both Column (A) and row (1) refences can change
+Fixed ($A$1) : Neither the column (A) nor the row (1) reference can change
+Mixed ($A1, A$1) : Column or row references may change, depending which one is fixed
+
+Press F4 multiple times in order to change the reference type
+------------------------------------------------------------------------------------
+Explicit vs Structured References 
+
+Control + T = Table
+
+-----------------------------------------------------------------------------------
+Logical Functions
+
+= Equal to
+> Greater Than
+< Less Than
+>= Greater than or equal to
+<= Less than or equal to
+<> Not equal to
