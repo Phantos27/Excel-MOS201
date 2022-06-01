@@ -37,3 +37,16 @@ Logical Functions
 >= Greater than or equal to
 <= Less than or equal to
 <> Not equal to
+
+-----------------------------------------------------------------------------------
+The If Function
+=IF(logical_test, [value_if_true], [value_if_false])
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Nested IF Functions
+
+Nested IF functions allow you to include multiple logical tests within a single formula
+
+=IFS(logical_test1, value_if_true1, [logical_test2], [value_if_true2], …)
+
