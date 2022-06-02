@@ -50,3 +50,12 @@ Nested IF functions allow you to include multiple logical tests within a single 
 
 =IFS(logical_test1, value_if_true1, [logical_test2], [value_if_true2], …)
 
+----------------------------------------------------------------------------------------
+
+NOT & “<>” OPERATORS
+NOT() Returns the opposite result of a logical expression; Changes FALSE to TRUE, or TRUE to FALSE 
+
+AND() Performs one or more logical tests and returns a value of TRUE if all arguments are true
+OR() Performs one or more logical tests and returns a value of TRUE if any argument is true
+
+=IF(OR(D2="Private Room",D2="Shared room"),"Yes","No")
