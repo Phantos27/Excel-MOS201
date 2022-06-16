@@ -59,3 +59,28 @@ AND() Performs one or more logical tests and returns a value of TRUE if all argu
 OR() Performs one or more logical tests and returns a value of TRUE if any argument is true
 
 =IF(OR(D2="Private Room",D2="Shared room"),"Yes","No")
+
+--------------------------------------------------------------------------------------------
+Switch()
+Evaluates an expression against a list of values and returns the result for the first matching value
+
+=Switch(Weekday(A2),1,"Sun",2,"Mon",3,"Tue")
+
+
+---------------------------------------------------------------------------------------------
+Round()
+
+Round(related cell,the number we want the cell to be rounded to)
+
+
+----------------------------------------------------------------------------------------------
+COUNTIF() SUMIF() AVERAGEIF() Calculates a count, sum or average based on specific criteria
+
+=COUNTIF(range, criteria)
+=SUMIF(range, criteria, [sum_range])
+=AVERAGEIF(range, criteria, [average_range])p
+
+#####PRO TIP: If you use < or >, you need to add quotation marks (i.e. “>100”)
+
+
+
