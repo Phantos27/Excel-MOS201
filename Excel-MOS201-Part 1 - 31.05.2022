@@ -82,5 +82,15 @@ COUNTIF() SUMIF() AVERAGEIF() Calculates a count, sum or average based on specif
 
 #####PRO TIP: If you use < or >, you need to add quotation marks (i.e. “>100”)
 
+---------------------------------------------------------------------------------------------
+COUNTIFS() SUMIFS() AVERAGEIFS() Calculates these operations based on multiple criteria
 
+=COUNTIFS(criteria_range1, criteria1, …)
+=SUMIFS(sum_range, criteria_range1, criteria1, …)
+=AVERAGEIFS(average_range, criteria_range1, criteria1, …)
 
+-----------------------------------------------------------------------------------------------
+MAXIFS() MINIFS() Returns the maximum or minimum values based on multiple criteria
+
+=MAXIFS(max_range, criteria_range1, criteria1, …)
+=MINIFS(min_range, criteria_range1, criteria1, …)
