@@ -94,3 +94,21 @@ MAXIFS() MINIFS() Returns the maximum or minimum values based on multiple criter
 
 =MAXIFS(max_range, criteria_range1, criteria1, …)
 =MINIFS(min_range, criteria_range1, criteria1, …)
+
+--------------------------------------------------------------------------------------------------
+Date Formatting 
+
+DATE() Returns the date value for a specified date =DATE(Year, Month, Day)
+NOW() Returns the date value for the current date and time
+TODAY() Returns the date value for the current date
+NOW() Returns the date value for the current date and time
+TIME() Returns the date value for a specified time
+NETWORKDAYS() Returns the number of workdays between two dates =NETWORKDAYS(Start, End, Holidays)
+
+YEAR() Returns the year of a date (from 1900 to 9999) =YEAR(Date)
+MONTH() Returns the month of a date (from 1 to 12) =MONTH(Date)
+DAY() Returns de day of a date (from 1 to 31) =DAY(Date)
+WEEKDAY() Returns the day of the week of a date (from 1 to 7) =WEEKDAY(Date, Type)
+HOUR() Returns the hour of the time (from 0 to 23) =HOUR(Date)
+MINUTE() Returns the minute of the time (from 0 to 59) =MINUTE(Date)
+SECOND() Returns the second of the time (from 0 to 59) =SECOND(Date
