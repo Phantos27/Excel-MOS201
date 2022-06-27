@@ -112,3 +112,17 @@ WEEKDAY() Returns the day of the week of a date (from 1 to 7) =WEEKDAY(Date, Typ
 HOUR() Returns the hour of the time (from 0 to 23) =HOUR(Date)
 MINUTE() Returns the minute of the time (from 0 to 59) =MINUTE(Date)
 SECOND() Returns the second of the time (from 0 to 59) =SECOND(Date
+
+---------------------------------------------------------------------------------------------------
+
+WEEKDAY() Returns a number identifying the day of the week for a specified date
+
+A whole number that determines which value corresponds to each weekday
+• 1 (default) = Sunday (1) to Saturday (7)
+• 2 = Monday (1) to Sunday (7)
+• 3 = Monday (0) to Sunday (6)
+
+WORKDAY & NETWORKDAYS
+WORKDAY() Returns the date value of the date before or after a specified number of workdays =WORKDAY(start_date, days, [holidays])
+NETWORKDAYS() Returns the number of workdays between two specified dates =NETWORKDAYS(start_date, end_date, [holidays])
+
