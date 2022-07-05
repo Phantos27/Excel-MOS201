@@ -125,4 +125,6 @@ A whole number that determines which value corresponds to each weekday
 WORKDAY & NETWORKDAYS
 WORKDAY() Returns the date value of the date before or after a specified number of workdays =WORKDAY(start_date, days, [holidays])
 NETWORKDAYS() Returns the number of workdays between two specified dates =NETWORKDAYS(start_date, end_date, [holidays])
+---------------------------------------------------------------------------------------------------
 
+HLOOKUP tekrar edilmeli
