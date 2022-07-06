@@ -128,3 +128,12 @@ NETWORKDAYS() Returns the number of workdays between two specified dates =NETWOR
 ---------------------------------------------------------------------------------------------------
 
 HLOOKUP tekrar edilmeli
+
+
+-----------------------------------------------------------------------------------------------------
+NPER() Returns the number of periods for a loan based on constant payments and a constant interest rate
+=NPER(rate, pmt, pv, [fv] , [type])
+THE PMT FUNCTION
+PMT() Calculates the periodic payment for a loan based on a fixed period and a constant interest rate
+=PMT(rate, nper, pv, [fv] , [type])
+
